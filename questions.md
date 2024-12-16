@@ -20,3 +20,36 @@
     - (kanban/scrum/etc)
 - Do you have experience with capacity planning with a team?
     - story points, etc
+
+# JavaScript
+
+- **What's the difference between `==` and `===`?**  
+    `==` (equality) will (attempt) to convert both sides to the same type effectively ignoring type when checking for equality  
+    `===` (strict equality) only returns true if both sides are also the same type as well as the same value  
+``` 
+    (2 == '2') // true  
+    (2 === '2') // false
+```
+ 
+- **What's the difference between `let` and `var`?**  
+    `var` is functionally scoped  
+    `let` is block scoped  
+```
+    foo();
+    function foo() {
+        if (true) {
+            var a = "foo";
+            let b = "bar";
+        }
+        console.log(a);  // "foo"
+        console.log(b);  // error
+    }
+```
+ 
+- **What's hoisting?**  
+    Function and variable declarations are moved to the beginning of their scope, so they can be used before the line where they are declared.  
+```
+    a = "foo";  // no errors
+    console.log(a);  // "foo"
+    var a;
+```
