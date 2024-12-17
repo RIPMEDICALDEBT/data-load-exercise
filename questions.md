@@ -14,13 +14,6 @@
 
 - Could you list some python libraries you have used?
 
-# Change Management
-
-- Have you worked in an Agile environment, and if so what did the process look like?
-    - (kanban/scrum/etc)
-- Do you have experience with capacity planning with a team?
-    - story points, etc
-
 # JavaScript
 
 - **What's the difference between `==` and `===`?**  
@@ -53,3 +46,10 @@
     console.log(a);  // "foo"
     var a;
 ```
+
+# Change Management
+
+- Have you worked in an Agile environment, and if so what did the process look like?
+    - (kanban/scrum/etc)
+- Do you have experience with capacity planning with a team?
+    - story points, etc
