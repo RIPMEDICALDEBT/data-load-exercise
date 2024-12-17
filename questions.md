@@ -14,6 +14,20 @@
 
 - Could you list some python libraries you have used?
 
+# SQL
+
+- Could you identity different types of joins and what they do
+    - LEFT [OUTER]
+    - RIGHT [OUTER]
+    - INNER
+    - FULL OUTER
+
+- Could you explain the difference between primary keys and foreign keys
+    - Primary keys force uniqueness within a table. Cannout be null
+    - Foreign keys establish relationships between two tables
+        - Typically referencing the primary key of one of them
+        - Enforces integrity in the other table
+
 # JavaScript
 
 - **What's the difference between `==` and `===`?**  
